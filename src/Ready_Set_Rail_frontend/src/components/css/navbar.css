@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@1&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    padding: 10px 20px;
+  }
+  
+
+  .main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: #86A789; 
+    font-size: 25px;
+  }
+  
+  .roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+  }
+  
+  
+  .roller #rolltext {
+    text-transform: capitalize;
+    position: absolute;
+    font-style: normal;
+    top: 0;
+    animation: slide 5s infinite;  
+  }
+  
+  @keyframes slide {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -4rem;    
+    }
+    50%{
+      top: -8rem;
+    }
+    72.5%{
+      top: -12.25rem;
+    }
+  }
+  
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #F7EFE5; 
+    font-weight: bold;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+
+  .nav-links li a:hover {
+    text-decoration: underline;
+    color: #C3ACD0;
+  }
+
+  .nav-links span {
+    color: white;
+    font-size: 20px;
+  }

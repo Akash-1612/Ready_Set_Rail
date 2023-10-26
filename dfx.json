@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "Ready_Set_Rail_backend": {
+      "main": "src/Ready_Set_Rail_backend/main.mo",
+      "type": "motoko"
+    },
+    "Ready_Set_Rail_frontend": {
+      "dependencies": [
+        "Ready_Set_Rail_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/Ready_Set_Rail_frontend/src/index.html"
+      },
+      "source": [
+        "src/Ready_Set_Rail_frontend/assets",
+        "dist/Ready_Set_Rail_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

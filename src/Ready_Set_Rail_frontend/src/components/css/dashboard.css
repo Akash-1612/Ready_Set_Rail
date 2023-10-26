@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@1&display=swap');
+
+.comp {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.main-title h1{
+    flex: 1;
+}
+
+.main-title h1 span {
+    display: block;
+}
+#one {
+    margin-left: 80px;
+    font-size: 75px;
+    padding-top: 90px;
+    color: #FFFBF5;
+}
+#two {
+    margin-left: 80px;
+    font-size: 120px;
+    color: #F7EFE5;
+}
+#thr {
+    margin-left: 80px;
+    font-size: 150px;
+    color: #C3ACD0;
+}
+
+.main-title h2 span {
+    display: block;
+    color: #D2E9E9;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Mate', serif;
+}
+
+.bookform {
+    flex: 1;
+    margin-left: 380px;
+    padding-left: 50px;
+}
