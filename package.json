@@ -20,9 +20,11 @@
     "@dfinity/agent": "^0.19.3",
     "@dfinity/candid": "^0.19.3",
     "@dfinity/principal": "^0.19.3",
+    "@syncfusion/ej2-react-dropdowns": "^23.1.42",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0"
+    "react-router-dom": "^6.17.0",
+    "react-select": "^5.7.7"
   },
   "devDependencies": {
     "assert": "2.0.0",

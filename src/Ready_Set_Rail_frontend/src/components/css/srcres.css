@@ -1,6 +1,7 @@
-.search-title { 
+.search-title h1{ 
     color: white;
 }
+
 
 #train-container {
     display: flex;

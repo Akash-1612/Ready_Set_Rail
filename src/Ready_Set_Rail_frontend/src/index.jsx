@@ -1,6 +1,4 @@
-// import { Ready_Set_Rail_backend } from "../../declarations/Ready_Set_Rail_backend";
-
-import * as React from "react"; 
+import * as React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./components/pages/dashboard";
@@ -11,9 +9,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = "/" element = {<Dashboard />} />
+        {/* <Route path = "/" element = {<Dashboard />} />
         <Route path = "/pnr" element = {<PNR />} />
-        <Route path = "/search-result" element = {<SearchResult />} />
+        <Route path = "/searchResult" element = {<SearchResult />} /> */}
+
+        <Route path="/" element={<PNR />} />
+
       </Routes>
     </BrowserRouter>
   )

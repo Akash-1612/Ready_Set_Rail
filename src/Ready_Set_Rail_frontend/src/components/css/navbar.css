@@ -21,6 +21,10 @@
     color: #86A789; 
     font-size: 25px;
   }
+
+  .main a {
+    text-decoration: none;
+  }
   
   .roller{
     height: 4.125rem;
